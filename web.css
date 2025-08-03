@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+}
+.sidebar-1{
+    background-color: rgb(118, 231, 222);
+    width: 20vw;
+    height: 100vh;
+       box-shadow: 10px 0px 20px rgba(0,0,0,0.2);
+       border-radius: 8px;
+}
+.sidebar-1 nav{
+    padding: 72px;
+}
+.sidebar-1 nav li{
+    list-style: none;
+        font-size: 31px;
+        padding: 33px 0;
+}
+.sidebar-1 nav li a{
+    text-decoration: none;
+    color: firebrick;
+    transition: .1s;
+}
+.sidebar-2{
+    background-color: rgb(118, 231, 222);
+    width: 20vw;
+    height: 100vh;
+       box-shadow: 10px 0px 20px rgba(0,0,0,0.2);
+       border-radius: 8px;
+}
+.sidebar-2 nav{
+    padding: 72px;
+}
+.sidebar-2 nav li{
+    list-style: none;
+        font-size: 31px;
+        padding: 33px 0;
+}
+.sidebar-2 nav li a{
+    text-decoration: none;
+    color: firebrick;
+    transition: .1s;
+}
+
+.main{
+    background-color: white;
+    width: 80vw;
+}
+.infocontainer{
+        background-color: white;
+      box-shadow: 0px 10px 20px rgba(0,0,0,0.5);
+    width: 78vw;
+    height: 75vh;
+    margin-left: 50px;
+    margin: auto;
+    margin-top: 84px;
+   display: flex;
+   justify-content: space-around;
+}
+.divpic img{
+height: 75vh;
+
+}
+.divinfo{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.hello{
+        font-size: 60px;
+          font-family: 'Roboto', sans-serif
+}
+.name{
+     font-size: 32px;
+}
+.button button{
+padding: 10px ;
+border-radius: 10px ;
+border-color: wheat;
+margin-top: 10px;
+margin-right: 10px;
+background-color: rgb(20, 70, 235);
+color: white;
+transition: .5s;
+}
+.button button:hover{
+    background-color: white;
+    color: black;
+}
+h1{
+    font-family: sans-serif;
+    padding-top: 130px;
+}
+.contact-container{
+        padding: 0 10px;
+}
+.form-label-1,.form-label-2 {
+    font-size: 20px;
+}
+.contact-container form div{
+    padding: 20px 0;
+}
+.form-text{
+    font-size: 12px;
+}
+.mb-3{
+    display: flex;
+    flex-direction: column;
+}
+.form-control{
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    
+}
+.form-check{
+    display: flex;
+    flex-direction: row;
+}
+#exampleCheck1{
+    margin-right: 5px;
+}
